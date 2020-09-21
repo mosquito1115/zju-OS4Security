@@ -24,9 +24,9 @@
 6.  创建目录==/home/cliff/opt/riscv==并更改其权限
 
     ```
-   cd /home
-   sudo mkdir -p cliff/opt/riscv
-   sudo chmod a+rw cliff/opt/riscv
+    cd /home
+    sudo mkdir -p cliff/opt/riscv
+    sudo chmod a+rw cliff/opt/riscv
     ```
 
 7. 由于在此使用==/home/cliff/opt/riscv==作为安装文件夹，因此需要将==/home/cliff/opt/riscv/bin==加入环境变量PATH，具体方法参见链接：https://blog.csdn.net/White_Idiot/article/details/78253004；
@@ -41,7 +41,7 @@
 1. 终端切到riscv-gnu-toolchain，运行：
 
    ```
-   bash ./configure --prefix=/home/cliff/opt/riscv
+   bash ./configure --prefix=/home/cliff/opt/riscv    //bash可省略，下同
    ```
 
 2. 若前一步正常，运行：`make`
